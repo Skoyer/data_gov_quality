@@ -1,10 +1,28 @@
-app_config.json
+# OS and IDE noise
 .DS_Store
 **/.DS_Store
+.ipynb_checkpoints/
+
+# Python cache files
 __pycache__/
-*.pyc
-# Ignore everything in these directories
-data/
-archive/
-test_data/
-processed/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Project-specific config
+app_config.json
+
+# Data folders — keep folders but ignore contents
+data/*
+!data/.gitkeep
+
+archive/*
+!archive/.gitkeep
+
+test_data/*
+!test_data/.gitkeep
+
+processed/*
+!processed/.gitkeep
