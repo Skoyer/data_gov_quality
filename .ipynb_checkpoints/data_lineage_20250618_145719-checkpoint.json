@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "2025-06-18T14:57:19.109262",
+    "dataset_name": "cafe_sales_dirty",
+    "overall_score": 89.5695,
+    "overall_grade": "B",
+    "critical_fields_score": 96.08670833333333,
+    "field_scores": {
+      "Transaction ID": 99.00000000000001,
+      "Item": 92.8045,
+      "Quantity": 96.35325,
+      "Price Per Unit": 95.889,
+      "Total Spent": 96.08975000000001,
+      "Payment Method": 73.55525,
+      "Location": 66.48049999999999,
+      "Transaction Date": 96.38375
+    },
+    "anomalies_detected": {},
+    "metadata_file": "cafe_sales_dirty_metadata.json",
+    "assessment_id": "ASSESS_20250618_145719"
+  }
+]

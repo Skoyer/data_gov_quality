@@ -1,0 +1,10 @@
+app_config.json
+.DS_Store
+**/.DS_Store
+__pycache__/
+*.pyc
+# Ignore everything in these directories
+data/
+archive/
+test_data/
+processed/
