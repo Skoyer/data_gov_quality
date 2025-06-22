@@ -58,10 +58,10 @@ python run_tests.py --basic
 ### 3. Process Your Data
 ```bash
 # Process all files in data/ directory
-python main_fixed.py
+python main.py
 
 # Process a specific file
-python main_fixed.py --file your_data.csv
+python main.py --file your_data.csv
 ```
 
 ## 🛠️ Installation
@@ -94,22 +94,22 @@ python run_tests.py --all
 
 ```bash
 # Basic usage - process all files in data/ directory
-python main_fixed.py
+python main.py
 
 # Process specific file
-python main_fixed.py --file path/to/your/data.csv
+python main.py --file path/to/your/data.csv
 
 # Override data directory
-python main_fixed.py --data-dir /path/to/your/data
+python main.py --data-dir /path/to/your/data
 
 # Run basic functionality test
-python main_fixed.py --test
+python main.py --test
 ```
 
 ### Programmatic Usage
 
 ```python
-from main_fixed import DataGovernanceFramework
+from main import DataGovernanceFramework
 import pandas as pd
 
 # Load your data
