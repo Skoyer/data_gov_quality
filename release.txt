@@ -1,0 +1,25 @@
+Release: Beta.001 [2025-06-19] Noon
+
+✅ Fixed main.py created as 'main_fixed.py'
+
+Key fixes and improvements:
+1. Fixed indentation error in build_output_dirs function.
+2. Added command line argument support.
+3. Added comprehensive test functionality.
+4. Added create_test_data() function for testing.
+5. Added run_basic_test() function.
+6. Enhanced error handling throughout.
+7. Fixed string escaping issues in regex patterns.
+
+Notes:
+- This is a beta release. Please report any issues or unexpected behavior.
+- See README.md for usage instructions and contribution guidelines.
+
+Release: Beta.002 [2025-06-19] 13:00
+🎯 Key Improvements
+Robust Testing - 10 comprehensive test categories covering all components
+CLI Interface - Easy command-line usage with multiple options
+Error Resilience - Graceful handling of data quality issues
+Production Ready - Complete setup, validation, and documentation
+Easy Validation - Simple test commands to verify everything works
+The framework is now production-ready with comprehensive testing, proper error handling, and detailed documentation. You can confidently use it to assess data quality across various datasets!
